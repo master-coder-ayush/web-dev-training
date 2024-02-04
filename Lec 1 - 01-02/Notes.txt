@@ -1,0 +1,67 @@
+# HTML - Hypertext Markup Language
+# HyperText: A system allowing documents to be linked together, enabling users to navigate between them.
+# Markup: The use of tags or symbols to annotate text, indicating how it should be structured or formatted.
+Eg - like in past author used to add a squiggle line to tell publisher to bold it just like that it is used to tell about the structure of the document
+# Language: A set of rules and conventions for communication, in this context, specifying the structure and presentation of web documents.
+
+HTML alone can be used to create web pages but CSS and JS cannot do the same.
+
+css - cascading style sheet 
+	- style markup language
+	- used to format the layout of a webpage
+
+inline css - used to apply unique style to an element using style attribute
+	- limitation - have to change the style of all the elements which have common style
+internal css - used to define css of a single webpage
+	- defined within the head section using style tag	
+external css - used to define css for many html pages
+	- link to the css file is added in the head section
+
+<!DOCTYPE html> - tell the version(html 5) of html we are using to the web browser
+<html> - tells the browser that the code within opening and closing html is html code
+<head> - holds information about webpage
+<title> - tells the title of the document to the browser
+<meta> - gives extra metadata or associated data to html document
+	- gives informatin to search engine
+	- tell browser how the webpage should be rendered (e.g viewport)
+	* charset="utf-8" - all the content in the webpage is encoded using utf-8 encoding system - utf-8 is standard encoding(includes all international symbols)
+	* http-equiv="X-UA-Compatible" content="IE=edge" - keeps the code compatible with internet explorer(internet explorer is depricated so it is not compulsory to write)
+	* name="viewport" content="width=device-width, initial-scale=1.0" - it defines how the website should be displayed relative to the screen that it's being renderd on, tells the browser how website should be displayed when it's being opened for the first time
+
+# Inline Element - Typically used for small, inline portions of content within a line, like spans of text or images, only takes up as much width as necessary.
+# Block Element - starts on a new line and occupies the full width available.
+
+<p> - formats tag in paragraph format in new line
+<h1> - <h6> - used to define the main heading or title of a webpage. It represents the highest level of hierarchy for headings and is typically used for the most important title on a page. <h1> tag is displayed in a larger, bolder font compared to other text
+<span> - an inline element used to apply styles or manipulate specific portions of text
+<style> - contains styling information
+	- contains css which is applied to the contents of the document containing style tag
+<link> - 
+	* rel
+		- stylesheet
+		- icon
+	* href
+	* type
+		-text/css
+
+Difference between HTML and HTML 5
+
+HTML
+It didn’t support audio and video without the use of flash player support.	
+It uses cookies to store temporary data.
+Does not allow JavaScript to run in browser.
+It works with all old browsers.
+<HTML>,<Body> , and <Head> tags are mandatory while writing a HTML code.
+Older version of HTML are less mobile-friendly.
+Doctype declaration is too long and complicated.
+Being an older version , it is not fast , flexible , and efficient as compared to HTML5.
+
+HTML5
+It supports audio and video controls with the use of <audio> and <video> tags.
+It uses SQL databases and application cache to store offline data.
+Allows JavaScript to run in background.
+It supported by all new browser like Firefox, Mozilla, Chrome, Safari, etc.
+These tags can be omitted while writing HTML code.
+HTML5 language is more mobile-friendly.
+Doctype declaration is quite simple and easy.
+It is efficient, flexible and more fast in comparison to HTML.
