@@ -1,0 +1,12 @@
+<br/> - A line break element used to create a line break within text, forcing subsequent content to appear on a new line.
+<hr/> - A horizontal rule element used to create a visible separation between content sections on a webpage.
+<img> - HTML tag used to embed images on a webpage.
+    *src - specifies the source URL (Uniform Resource Locator) or file path of the image that the tag will display.
+<a> - HTML tag used to create hyperlinks on a webpage.
+    *href - specifies the destination URL (Uniform Resource Locator) or the file path to which the hyperlink points.
+<ul> - Unordered list element used to define a list of items without any specific order, typically displayed with bullet points.
+<ol> - Ordered list element used to define a list of items in a specific numerical or alphabetical order, displayed with sequential numbers or letters.
+<li> - List item element used to define individual items within an ordered (<ol>) or unordered (<ul>) list.
+
+# The convention for heading elements is to use <h1> for the main heading or title of the page, followed by <h2> for subheadings, and so on (<h3>, <h4>, etc.), maintaining a hierarchical structure to represent the content's organization and importance.
+# Importance of head tag in SEO - The <head> tag in HTML is crucial for SEO, providing metadata like the title, meta description, and canonical tags. Properly structured heading tags within <head> contribute to content organization, aiding search engines in understanding and ranking the webpage.
