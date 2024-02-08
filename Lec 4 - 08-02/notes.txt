@@ -1,0 +1,6 @@
+Linking pages in the html can be done using anchor tag.
+E.g., 
+We have two files in same directory named index.html and about.html
+To move from one to another we will specify the name of the file in href attribute of the anchor tag.
+To move from index to about we will do:
+<a href="about.html">Go to about</a>
