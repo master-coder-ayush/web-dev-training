@@ -1,0 +1,15 @@
+Revision of 1st & 2nd Lecture
+
+Changing block property of element to inline using inline CSS.
+Inline CSS - The css/styling that we apply to our website by mentioning it in the style attribute of the concerned element is called inline CSS.
+E.g., 
+<h1 style="display: inline;">Hello</h1>
+<span>Hello</span>
+
+By defualt the h1 tag in block element thus it will take the whole width but by specifying `style="display: inline;"` we have changed it to inline element and now both the Hello will come in same line.
+
+Box Model - 
+Margin: Space outside the border, creating distance between the box and adjacent elements.
+Border: The boundary surrounding the content and padding, which can have a defined style, width, and color.
+Padding: Space between the content and the border, providing visual separation.
+Content: The core element inside the box, such as text or images, which occupies space and defines the box's dimensions.
